@@ -1,0 +1,65 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    background-color: #f2f2f2; 
+}
+
+h1, 
+h2 {
+    color: #313740;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: #0e3942;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #422b40;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    background-color: #c988a8;
+}
+
+#start-button,
+#submitInitials,
+#goBackButton,
+#clearHighScoreButton
+ {
+    background-color: #c988a8;
+}
+
+#start-button:hover,
+#submitInitials:hover,
+#goBackButton:hover,
+#clearHighScoreButton:hover {
+    opacity: 0.6;
+}
+
+#finalScore {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#questionTitle {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+#answerCheck {
+    color: #0a0a0a;
+    font-weight: bold;
+}
