@@ -37,6 +37,7 @@ var timer;
 var timerCount;
 var sections = [startDiv, questionDiv, summary, highScoreSection];
 
+// Question object
 var questions = [
     {
         title: "How do you call a function named 'myFunction'?",
