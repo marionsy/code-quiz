@@ -85,6 +85,7 @@ function startTimer() {
         timeLeftElement.textContent = timerCount;
         if (timerCount <= 0) {
             clearInterval(timer);
+            displayQuizOver();
         }
     }, 1000);
 }
